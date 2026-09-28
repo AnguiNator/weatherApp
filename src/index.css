@@ -1,1 +1,55 @@
 @import "tailwindcss";
+
+@theme {
+    --font-dm-sans: "DM Sans", sans-serif;
+    --font-bricolage: "Bricolage Grotesque", sans-serif;
+
+    --color-neutral900: #02012C;
+    --color-neutral800: #262540;
+    --color-neutral700: #302F4A;
+    --color-neutral600: #3C3B5E;
+    --color-neutral300: #ACACB7;
+    --color-neutral200: #D4D3D9;
+    --color-neutral0: #FFFFFF;
+
+    --color-orange500: #FF820A;
+
+    --color-blue500: #4658D9;
+    --color-blue700: #2B1B9C;
+}
+
+@utility text-preset1 {
+    @apply font-dm-sans text-[6rem] leading-[100%] tracking-[-2px] font-semibold italic;
+}
+
+@utility text-preset2 {
+    @apply font-bricolage text-[3.25rem] leading-[120%] tracking-[0px] font-bold;
+}
+
+@utility text-preset3 {
+    @apply font-dm-sans text-[2rem] leading-[100%] tracking-[0px] font-light;
+}
+
+@utility text-preset4 {
+    @apply font-dm-sans text-[1.75rem] leading-[120%] tracking-[0px] font-bold;
+}
+
+@utility text-preset5 {
+    @apply font-dm-sans text-[1.25rem] leading-[120%] tracking-[0px] font-semibold;
+}
+
+@utility text-preset5-medium {
+    @apply font-dm-sans text-[1.25rem] leading-[120%] tracking-[0px] font-medium;
+}
+
+@utility text-preset6 {
+    @apply font-dm-sans text-[1.125rem] leading-[120%] tracking-[0px] font-medium;
+}
+
+@utility text-preset7 {
+    @apply font-dm-sans text-base leading-[120%] tracking-[0px] font-medium;
+}
+
+@utility text-preset8 {
+    @apply font-dm-sans text-[0.875rem] leading-[120%] tracking-[0px] font-medium;
+}
